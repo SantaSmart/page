@@ -1,0 +1,10 @@
+{
+    "name": "Santa Smart Catalogo",
+    "short_name": "Santa Smart",
+    "theme_color": "#333333",
+    "background_color": "#2196f3",
+    "display": "standalone",
+    "orientation": "portrait",
+    "scope": "/",
+    "start_url": "/"
+  }
