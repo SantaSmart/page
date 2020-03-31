@@ -7,15 +7,16 @@
  .menu_top {
      width: 100vw;
      height: 10vh;
-     background: #333;
+     background: #fff;
      position: fixed;
-     z-index: 3;
+     z-index: 4;
      line-height: 10vh;
-    }
+     box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+ }
  .menu_top > label {
-    font-family: arial;
+    font-family: helvica;
     font-weight: 300;
-    color: #fff;
+    color: #333;
  }
 
 
@@ -32,25 +33,34 @@
 
 
 @media (max-width: 768px){
-    .menu_top > button {
-        float: right;
-        font-size: 25px;
+    .menu_top > div {
+        width: 80%;
+        height: 10vh;
+        position: fixed;
+        top: 0;
+        right: -60%;
+        background: #fff;
+    }
+    .menu_top > div > button {
+        float: left;
+        font-size: 20px;
         background: none;
         border: none;
-        color: #fff;
+        color: #333;
         line-height: 10vh;
-        margin-right: 5%;
+        margin-left: 9%;
+    }
+    .menu_top > div > input {
+        margin-left: 10%;
+        height: 3vh;
+        width: 63%;
     }
     .menu_top > label {
         margin-left: 5%;
     }
-    .menu_style > svg {
-        height: 25vh;
-        position: fixed;
-        z-index: 1;
-        margin-top: 10vh;
-    }
-   
+    
+    
+
 
     .container {
         position: relative;
@@ -67,3 +77,26 @@
         
     }
 }
+
+
+
+@media (min-width: 768px){
+    .menu_top > button {
+      display: none;
+    }
+    .menu_top > label {
+        margin-left: 5%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
