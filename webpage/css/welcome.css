@@ -1,0 +1,125 @@
+
+  * {
+      padding: 0;
+      margin: 0;
+  }
+
+
+
+  input:focus { outline: none; }
+
+
+
+
+  .top {
+      background: #333;
+      width: 100vw;
+      height: 50vh;
+  }
+  .top > #welcome_message {
+      color: #f1f1f1;
+      font-family: arial;
+      font-weight: 100;
+      position: absolute;
+      top: 10vh;
+      left: 10vw;
+  }
+  .top > #welcome_message > span {
+      font-weight: 900;
+      font-family: helvica;
+      font-size: 20px;
+  }
+
+
+
+
+
+
+  .container {
+      width: 100vw;
+      height: 75vh;
+      background: #fff;
+      margin-top: -25vh;
+      border-radius: 20px 20px 0px 0px;
+  }
+ 
+  .container > div {
+      width: 90vw;
+      height: 30vh;
+      position: relative;
+      top: 10vh;
+      left: 5vw;
+      border-top: 10px solid #222;
+      border-radius: 5px;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
+  }
+
+  .container > div > select {
+      width: 80vw;
+      height: 5vh;
+      border: none;
+      background: #333;
+      color: #fff;
+      font-family: helvica;
+      text-indent: 2em;
+      border-radius: 5px;
+      margin-left: 5vw;
+      margin-top: 5vh;
+  }
+
+  .container > div > label[for=estado]{
+      font-family: helvica;
+      position: absolute;
+      font-weight: 300;
+      left: 5vw;
+      top: 2vh;
+  }
+  .container > div > label[for=cidade]{
+    font-family: helvica;
+    position: absolute;
+    font-weight: 300;
+    left: 5vw;
+    top: 12vh;
+}
+
+
+
+  .container > div > #lembrar {
+      position: absolute;
+      top: 22vh;
+      left: 10vw;
+  }
+  .container > div > label[for=lembrar] {
+    position: absolute;
+    top: 22vh;
+    left: 15vw;
+    font-family: helvica;
+    font-weight: 200;
+}
+
+
+
+  .container > #next {
+      width: 50vw;
+      height: 40px;
+      position: absolute;
+      bottom: 10vh;
+      left: 25vw;
+      border-radius: 5vh;
+      border: none;
+      background: #fff;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.05);
+      font-weight: 700;
+      text-transform: uppercase;
+  }
+  .container > #next:hover {
+    box-shadow:inset 5px 5px 10px rgba(0, 0, 0, 0.05);
+
+  }
+
+
+
+
+
+
+
