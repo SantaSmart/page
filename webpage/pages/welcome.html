@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#333">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+</head>
+<body>
+     <section class="top">
+         <label id="welcome_message">Olá,<br> <span>BEM-VINDO</span></label>
+     </section>
+     <section class="container">
+         
+        
+        <div class="form">
+        <label for="estado" >Estado</label>
+        <select name="estado" id="estado" onchange="showCity()">
+            <option value="none">-- Selecione --</option>
+            <option value="São Paulo">São Paulo</option>
+        </select>
+        <label for="cidade">Cidade</label>
+        <select name="cidade" id="cidade">
+            <option value="none">-- Selecione --</option>
+        </select>
+
+        <input type="checkbox" name="lembrar" id="lembrar">
+        <label for="lembrar">Salvar minha localização.</label>
+        </div>
+        <input type="button" value="Prosseguir" id="next" onclick="runHome()">
+     </section>
+</body>
+</html>
